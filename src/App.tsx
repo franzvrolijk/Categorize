@@ -70,10 +70,10 @@ function App() {
           <div className="group-container">
             {guessedGroups?.map((g) => (
               <div key={g.category} className="group">
-                <h3>{g.category}</h3>
+                <p>{g.category}</p>
                 <div className="group-element-container">
                   {g.words.sort().map((word: string) => (
-                    <p key={word} className="group-element">
+                    <p key={word} className="word">
                       {word}
                     </p>
                   ))}
@@ -88,10 +88,16 @@ function App() {
               </div>
             ))}
           </div>
-          <p>Attempts remaining: {5 - attempts}</p>
-          <button className="app-button" disabled={selectedWords.length != 4} onClick={handleSubmit}>
-            Submit
-          </button>
+          {guessedGroups.length == 4 ? (
+            <p>You won!</p>
+          ) : (
+            <>
+              <p>Attempts remaining: {5 - attempts}</p>
+              <button className="app-button" disabled={selectedWords.length != 4} onClick={handleSubmit}>
+                Submit
+              </button>
+            </>
+          )}
         </>
       )}
       <button className="new-game-button" onClick={newGame}>

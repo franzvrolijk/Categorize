@@ -1,6 +1,12 @@
 #root {
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+
 }
 
 .main-container {
@@ -14,16 +20,18 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 2rem;
+  max-width: 900px;
 }
 
 .word {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
-  height: 4.5rem;
-  width: 8rem;
-  margin: 0.8rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 70px;
+  height: 35px;
+  font-size: small;
   border-radius: 0.6rem;
   background-color: #C6C5B9;
   color: #14181f;
@@ -51,7 +59,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0.5rem;
+  max-width: 100%;
 }
 
 .group {
@@ -61,28 +69,19 @@
   color: #FDFDFF;
   background-color: #62929E;
   border-radius: 0.6rem;
-  margin: 1rem;
   width: 100%;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
-.group > h3 {
+.group > p {
   margin: 0.5rem;
 }
 
 .group-element-container {
   display: flex;
   justify-content: center;
-}
-
-.group-element {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  color: #393D3F;
-  border-radius: 0.6rem;
-  width: 12%;
-  font-size: 0.8rem;
-  background-color: #C6C5B9;
+  width: 100%;
 }
 
 .app-button {
@@ -116,7 +115,7 @@
 }
 
 .new-game-button {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: medium;
   padding: 0.5rem 1rem;
   border: 0;

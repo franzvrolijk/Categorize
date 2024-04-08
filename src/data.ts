@@ -39,10 +39,6 @@ const data: Group[] = [
   { category: "Words related to cat", words: ["Fur", "Whisker", "Purr", "Claw"] },
   { category: "Words related to bird", words: ["Feather", "Wing", "Nest", "Beak"] },
   { category: "Words related to fish", words: ["Swim", "Fin", "Scales", "Gill", "Tank"] },
-  { category: "Words related to horse", words: ["Gallop", "Stable", "Ride", "Hoof", "Mare", "Foal"] },
-  { category: "Words related to cow", words: ["Milk", "Moo", "Udder", "Horn", "Calf"] },
-  { category: "Words related to sheep", words: ["Wool", "Pasture", "Lamb", "Ram"] },
-  { category: "Words related to chicken", words: ["Cluck", "Egg", "Roost", "Hen", "Cock"] },
   { category: "Words related to pirates", words: ["Threaten", "Treasure", "Boarding", "Waters", "Bay", "Sword", "Eyepatch", "Plunder", "Hijack"] },
   { category: "Words related to farmers", words: ["Tractor", "Soil", "Land", "Plough", "Field", "Irrigation", "Seed", "Harvest", "Barn", "Crop"] },
 ];

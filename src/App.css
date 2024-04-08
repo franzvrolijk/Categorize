@@ -1,0 +1,133 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.word-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 2rem;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  height: 4.5rem;
+  width: 8rem;
+  margin: 0.8rem;
+  border-radius: 0.6rem;
+  background-color: #C6C5B9;
+  color: #14181f;
+  transition: ease-in-out 0.1s;
+}
+
+.selected {
+  background-color: #62929E;
+  color: #FDFDFF;
+  transition: ease-in-out 0.1s;
+}
+
+.word:hover {
+  scale: 1.05;
+  transition: ease-in-out 0.1s;
+}
+
+.word:active {
+  scale: 0.95;
+  transition: ease-in-out 0.1s;
+}
+
+.group-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FDFDFF;
+  background-color: #62929E;
+  border-radius: 0.6rem;
+  margin: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.group > h3 {
+  margin: 0.5rem;
+}
+
+.group-element-container {
+  display: flex;
+  justify-content: center;
+}
+
+.group-element {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: #393D3F;
+  border-radius: 0.6rem;
+  width: 12%;
+  font-size: 0.8rem;
+  background-color: #C6C5B9;
+}
+
+.app-button {
+  font-size: large;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 0.1rem;
+  background-color: #C6C5B9;
+  color: #393D3F;
+  scale: 1;
+  transition: ease-in-out 0.1s;
+}
+
+.app-button:disabled {
+  border: 0;
+  background-color: #383838;
+  color: #222222;
+  transition: ease-in-out 0.1s;
+}
+
+.app-button:enabled:hover {
+  background-color: #67cc8e;
+  color: #FDFDFF;
+  scale: 1.1;
+  transition: ease-in-out 0.1s;
+}
+
+.app-button:enabled:active {
+  scale: 0.9;
+  transition: ease-in-out 0.1s;
+}
+
+.new-game-button {
+  margin-top: 2rem;
+  font-size: medium;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.1rem;
+  background-color: #30353d;
+  color: #C6C5B9;
+  scale: 1;
+  transition: ease-in-out 0.1s;
+}
+
+.new-game-button:hover {
+  background-color:#FDFDFF;
+  color:#14181f;
+}

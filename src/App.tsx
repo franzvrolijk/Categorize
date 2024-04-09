@@ -69,7 +69,7 @@ function App() {
           <p>Find four groups of four!</p>
           <div className="group-container">
             {guessedGroups?.map((g) => (
-              <div key={g.category} className="group">
+              <div key={g.category} className="group" style={{ backgroundColor: g.color }}>
                 <p>{g.category}</p>
                 <div className="group-element-container">
                   {g.words.sort().map((word: string) => (

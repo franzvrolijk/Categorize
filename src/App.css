@@ -36,6 +36,7 @@ h1 {
   background-color: #C6C5B9;
   color: #14181f;
   transition: ease-in-out 0.1s;
+  border: solid 1px #14181f;
 }
 
 .selected {

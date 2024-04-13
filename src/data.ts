@@ -13,7 +13,6 @@ const data: Group[] = [
   { category: "Animal groups", words: ["Pride", "Murder", "School", "Pack", "Flock", "Colony", "Herd", "Swarm", "Troop", "Pod", "Gaggle", "Parliament"] },
   { category: "Programming languages", words: ["Python", "Ruby", "Swift", "Go", "Rust", "Basic"] },
   { category: "Types of tea", words: ["Green", "Black", "Oolong", "White", "Herbal", "Chai", "Matcha", "Jasmine"] },
-  { category: "Types of sauce and condiments", words: ["Salsa", "Pesto", "Marinara", "Alfredo", "Ketchup", "Aioli", "Ragu"] },
   { category: "Parts of a tree", words: ["Trunk", "Branch", "Root", "Bark", "Twig", "Leaf", "Sap", "Crown"] },
   { category: "Words you can put 'Horse' in front of", words: ["Power", "Shoe", "Race", "Back", "Radish", "Play"] },
   { category: "Words you can put 'Sun' in front of", words: ["Flower", "Screen", "Set", "Rise", "Burn", "Glasses", "Spot", "Beam", "Bath", "Day"] },
@@ -78,8 +77,6 @@ const data: Group[] = [
   { category: "Words related to time", words: ["Late", "Early", "Soon", "Past", "Before", "After", "Now", "Future"] },
   { category: "Words related to space", words: ["Galaxy", "Planet", "Star", "Asteroid", "Orbit", "Nebula", "Cosmos"] },
   { category: "Types of sharks", words: ["Great White", "Hammerhead", "Tiger", "Bull", "Whale", "Mako", "Nurse", "Goblin"] },
-  { category: "Car parts",words: ["Hood", "Bumper", "Fender", "Headlight", "Taillight", "Door", "Trunk", "Tire", "Wheel", "Engine", "Exhaust", "Muffler", "Catalysator", "Transmission", "Clutch", "Brake", "Radiator", "Alternator", "Starter", "Distributor", "Spark plug"],
-  },
   { category: "Types of car paint", words: ["Metallic", "Matte", "Gloss", "Pearl", "Satin", "Chrome", "Candy", "Clearcoat"] },
 ];
 

@@ -13,6 +13,7 @@ const data: Group[] = [
   { category: "Animal groups", words: ["Pride", "Murder", "School", "Pack", "Flock", "Colony", "Herd", "Swarm", "Troop", "Pod", "Gaggle", "Parliament"] },
   { category: "Programming languages", words: ["Python", "Ruby", "Swift", "Go", "Rust", "Basic"] },
   { category: "Types of tea", words: ["Green", "Black", "Oolong", "White", "Herbal", "Chai", "Matcha", "Jasmine"] },
+  { category: "Parts of a tree", words: ["Trunk", "Branch", "Root", "Bark", "Twig", "Leaf", "Sap", "Crown"] },
   { category: "Words you can put 'Horse' in front of", words: ["Power", "Shoe", "Race", "Back", "Radish", "Play"] },
   { category: "Words you can put 'Sun' in front of", words: ["Flower", "Screen", "Set", "Rise", "Burn", "Glasses", "Spot", "Beam", "Bath", "Day"] },
   { category: "Words you can put 'Moon' in front of", words: ["Light", "Walk", "Shine", "Phase", "Landing"] },
@@ -36,7 +37,7 @@ const data: Group[] = [
   { category: "Words related to ball", words: ["Basket", "Foot", "Cannon", "Paint", "Punch", "Puff", "Eye", "Gum", "Pin", "Soft", "Room"] },
   { category: "Words related to bottle", words: ["Water", "Glass", "Baby", "Wine", "Soda", "Beer", "Plastic"] },
   { category: "Words related to car", words: ["Racing", "Fast", "Driver", "Speed", "Engine", "Wheel"] },
-  { category: "Words related to dog", words: ["Bark", "Puppy", "Pet", "Bone", "Paw"] },
+  { category: "Words related to dog", words: ["Puppy", "Pet", "Bone", "Paw"] },
   { category: "Words related to bird", words: ["Feather", "Wing", "Nest", "Beak"] },
   { category: "Words related to fish", words: ["Swim", "Fin", "Scales", "Gill", "Tank"] },
   { category: "Words related to pirates", words: ["Threaten", "Treasure", "Boarding", "Waters", "Bay", "Sword", "Eyepatch", "Plunder", "Hijack"] },
@@ -73,6 +74,9 @@ const data: Group[] = [
   { category: "Bakery", words: ["Croissant", "Baguette", "Muffin", "Cupcake", "Sourdough", "Pastry", "Cinnamon", "Pretzel", "Eclair", "Biscotti"] },
   { category: "Office", words: ["Desk", "Chair", "Cabinet", "Bookshelf", "Conference", "Printer", "Reception"] },
   { category: "Laundry", words: ["Detergent", "Softener", "Iron", "Clothespins", "Sheets", "Stain", "Rack"] },
+  { category: "Words related to time", words: ["Late", "Early", "Soon", "Past", "Before", "After", "Now", "Future"] },
+  { category: "Types of sharks", words: ["Great White", "Hammerhead", "Tiger", "Bull", "Whale", "Mako", "Nurse", "Goblin"] },
+  { category: "Types of car paint", words: ["Metallic", "Matte", "Gloss", "Satin", "Chrome", "Candy", "Clearcoat"] },
 ];
 
 const colors = [

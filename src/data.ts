@@ -37,7 +37,7 @@ const data: Group[] = [
   { category: "Words related to ball", words: ["Basket", "Foot", "Cannon", "Paint", "Punch", "Puff", "Eye", "Gum", "Pin", "Soft", "Room"] },
   { category: "Words related to bottle", words: ["Water", "Glass", "Baby", "Wine", "Soda", "Beer", "Plastic"] },
   { category: "Words related to car", words: ["Racing", "Fast", "Driver", "Speed", "Engine", "Wheel"] },
-  { category: "Words related to dog", words: ["Bark", "Puppy", "Pet", "Bone", "Paw"] },
+  { category: "Words related to dog", words: ["Puppy", "Pet", "Bone", "Paw"] },
   { category: "Words related to bird", words: ["Feather", "Wing", "Nest", "Beak"] },
   { category: "Words related to fish", words: ["Swim", "Fin", "Scales", "Gill", "Tank"] },
   { category: "Words related to pirates", words: ["Threaten", "Treasure", "Boarding", "Waters", "Bay", "Sword", "Eyepatch", "Plunder", "Hijack"] },
@@ -75,9 +75,8 @@ const data: Group[] = [
   { category: "Office", words: ["Desk", "Chair", "Cabinet", "Bookshelf", "Conference", "Printer", "Reception"] },
   { category: "Laundry", words: ["Detergent", "Softener", "Iron", "Clothespins", "Sheets", "Stain", "Rack"] },
   { category: "Words related to time", words: ["Late", "Early", "Soon", "Past", "Before", "After", "Now", "Future"] },
-  { category: "Words related to space", words: ["Galaxy", "Planet", "Star", "Asteroid", "Orbit", "Nebula", "Cosmos"] },
   { category: "Types of sharks", words: ["Great White", "Hammerhead", "Tiger", "Bull", "Whale", "Mako", "Nurse", "Goblin"] },
-  { category: "Types of car paint", words: ["Metallic", "Matte", "Gloss", "Pearl", "Satin", "Chrome", "Candy", "Clearcoat"] },
+  { category: "Types of car paint", words: ["Metallic", "Matte", "Gloss", "Satin", "Chrome", "Candy", "Clearcoat"] },
 ];
 
 const colors = [
